@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+hr {
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+
+}
+.wrap {
+    width: 100%;
+}
+.container {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.weather-card {
+    text-align: center;
+    border: solid 2px green;
+    border-radius: 5px;
+}
+.weather-card select {
+    border: none;
+}
+.weather-card select:focus-visible {
+    outline: none;
+}
+form {
+    margin-top: 20px;
+}
+.city-name {
+    font-size: 28px;
+    text-align: center;   
+    margin-top: 30px;
+    color: green;
+    text-transform: uppercase;
+}
+.city-name__input {
+    width: 120px;
+    margin: 0 auto;
+    border: none;
+}
+.degs {
+    font-size: 40px;    
+    text-align: center;
+}
+.degs p {
+    font-size: 20px;
+}
+.clouds {
+    font-size: 14px;
+}
+.start {    
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.btn {
+    width: 140px;
+    height: 40px;
+    background-color: green;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.btn:hover {
+    background-color: rgb(23, 160, 41);    
+} 
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .container {
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .city-name {
+        font-size: 38px;          
+        margin-top: 20px;        
+    }
+    .select-city {
+        font-size: 20px;
+    }
+    .btn {
+        width: 200px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .degs {
+        font-size: 50px;       
+    }
+    .clouds {
+        font-size: 20px;
+    }
+}
